@@ -9,15 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "next": "13.4.13",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-virtualized": "^9.22.5"
   },
   "devDependencies": {
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "eslint": "7",
     "eslint-config-next": "13.4.13",
+    "sass": "^1.65.1",
     "typescript": "5.1.6"
   }
 }

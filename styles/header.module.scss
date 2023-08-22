@@ -1,0 +1,19 @@
+$activeColor:rgba(153, 84, 84, 0.384);
+$hoverColor:rgba(218, 144, 144, 0.356);
+
+.navCustome{
+    background-color: brown;
+ color: white;
+ .item{
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    &:hover {
+        opacity: 0.4;
+      }
+      
+ }
+ .activeItem{
+    background-color: $activeColor  
+}
+ 
+}
